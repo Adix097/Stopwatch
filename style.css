@@ -1,0 +1,68 @@
+/* Body */
+body {
+    background-color: hsl(0, 0%, 30%);
+    height: 100vh;
+    text-align: center;
+    overflow: hidden;
+}
+
+/* Heading */
+h1 {
+    color: black;
+    font-size: 4rem;
+    font-family: monospace;
+}
+
+/* clock */
+#clock {
+    font-size: 4rem;
+    font-family: monospace;
+    color: hsl(60, 100%, 50%);
+    text-shadow: 3px 2px 2px hsla(60, 100%, 50%, 0.4);
+    margin-bottom: 25px;
+}
+
+/* Control Pannel */
+.controls {
+    display: flex;
+    gap: 25px;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Buttons */
+button {
+    padding: 5px 20px;
+    border-radius: 15px;
+    border: none;
+    font-weight: bold;
+    color: white;
+    font-size: 1.15rem;
+    font-family: monospace;
+    cursor: pointer;
+    transition: background-color 0.5s ease;
+}
+
+#startBtn {
+    background-color: hsl(0, 100%, 50%);
+}
+
+#startBtn:hover {
+    background-color: hsla(0, 100%, 50%, 0.8);
+}
+
+#stopBtn {
+    background-color: hsl(120, 100%, 25%);
+}
+
+#stopBtn:hover {
+    background-color: hsla(120, 100%, 25%, 0.8);
+}
+
+#resetBtn {
+    background-color: hsl(240, 100%, 50%);
+}
+
+#resetBtn:hover {
+    background-color: hsla(240, 100%, 50%, 0.8);
+}
